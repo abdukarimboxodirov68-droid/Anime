@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+body{
+  background-color: #232028;
+}
+select{
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    font-size: 20px;
+    box-shadow: 0px 0px 11px 0px #FFFFFF;
+    background-color: #232028;
+    color: white;
+
+
+
+}
+header{
+    padding: 50px;
+  
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.bosh{
+    padding-left: 10px;
+    display: flex;
+
+}
+button{
+    width: 100px;
+    height: 30px;
+    color: black;
+border: none;
+   margin: 10px;
+   transition: 0.7s;
+   background-color: inherit;   
+   color: white;
+}
+button:hover{
+    background-color: #BFAFF2;
+    color: white;
+    font-size: 10px;
+    border-radius: 10px;
+}
+h1{
+    padding-right: 20px;
+    color: white;
+}
+.hero{
+    padding-top: 300px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 20px;
+  
+}
+.card{
+    width: 325px;
+    height: 240px;
+    background-color: #261f31;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+img{
+    margin-top: -270px;
+}
+.card img{
+    margin-top: -250px;
+}
+footer{
+    padding: 70px;
+   
+}
+
+.oxirgi2{
+    display: flex;
+    align-items: center;
+ justify-content: end;
+ gap: 30px;
+ color: white;
+ font-size: 15px;
+}
+
+
+@media(max-width:768px){
+    .lll{
+        display: none;
+    }
+    .hero{
+        flex-direction: column;
+    }
+    .kkk{
+        width: 110px;
+    }
+    .oxirgi2{
+        display: none;
+        text-align: center;
+    }
+    .bitva{
+        text-align: center;
+    }
+}
